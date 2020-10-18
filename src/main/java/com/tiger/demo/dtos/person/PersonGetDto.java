@@ -1,0 +1,14 @@
+package com.tiger.demo.dtos.person;
+
+import lombok.Data;
+
+import java.util.UUID;
+
+@Data
+public class PersonGetDto {
+
+    private UUID id;
+    private String name;
+    private int age;
+    private String gender;
+}
