@@ -19,7 +19,6 @@ public class ActorService {
     private final ActorMapper actorMapper;
 
     public List<ActorGetDto> getAllActors() {
-
         return actorRepository.findAll().stream()
                 .map(actor -> actorMapper.fromEntity(actor))
                 .collect(Collectors.toList());

@@ -1,7 +1,6 @@
 package com.tiger.demo.controllers;
 
 import com.tiger.demo.dtos.actor.ActorGetDto;
-import com.tiger.demo.entities.Actor;
 import com.tiger.demo.services.ActorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
